@@ -5,14 +5,14 @@ This project was developed with UP Oncolytics and presented at the 2026 AACR Spe
 ## Introduction
 Glioblastoma (GBM) remains highly resistant to conventional therapies due to the blood-brain barrier, tumor heterogeneity, immunosuppression, and diffuse infiltration. Oncolytic virotherapy offers a promising strategy to overcome these barriers by selectively infecting tumor cells while stimulating anti-tumor immunity.
 
-Zika virus (ZIKV) is a strong candidate for GBM oncolytic therapy due to its natural neurotropism and ability to infect neural progenitor-like cells present in GBM. While ZIKV enters cells through transmembrane receptors such as AXL, receptor expression alone is insufficient for productive infection.1
+Zika virus (ZIKV) is a strong candidate for GBM oncolytic therapy due to its natural neurotropism and ability to infect neural progenitor-like cells present in GBM. While ZIKV enters cells through transmembrane receptors such as AXL, receptor expression alone is insufficient for productive infection.
 
 To identity transcriptional features underlying ZIKV susceptibility, we analyzed RNA-seq data from 15 GBM cell lines (10 patient-derived, 5 commercial; 60 samples total).
 
 ## Differential Expression
 * Differential expression analysis identified large-scale transcriptomic differences between ZIKV-susceptible and resistant GBM cell lines. 
 * Across 34,895 detected genes, we identified 3,162 significantly upregulated genes and 2,482 significantly downregulated genes (adjusted p-value < 0.05).
-* Principal component analysis (PCA) reveals clear separation between susceptible and resistant cell lines, indicating that baseline transcriptomic difference strongly associate with viral susceptibility. (Figure 2).
+* Principal component analysis (PCA) reveals clear separation between susceptible and resistant cell lines, indicating that baseline transcriptomic difference strongly associate with viral susceptibility (Figure 2).
 
 ## Functional Analysis
 Gene Set Enrichment Analysis (GSEA) in patient-derived cell lines identified 872 significantly enriched Gene Ontology (GO) biological processes (adjusted p-value < 0.05). 2 dominant biological themes emerged: 
